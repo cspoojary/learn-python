@@ -3,6 +3,8 @@
 for i in range(20):
     if i % 2 ==0:
         print(i)
+
+        
 #     b) Use a for loop to calculate the sum of the first 5 positive integers
 sum=0
 for i in range(5):
