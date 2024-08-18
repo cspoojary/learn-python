@@ -8,28 +8,21 @@
 # f. Mean of all elements in each row
 
 import numpy as np
-
 start_value = -1
 step_size = 1
 num_rows = 14
 num_columns = 3
 num_elements = num_rows * num_columns
-
 array_1d = np.arange(start_value, start_value + num_elements * step_size, step_size)
-
 myarray = array_1d.reshape((num_rows, num_columns))
-
 print("2-D Array (myarray):")
 print(myarray)
-
 # a. Sum of all element
 sum_all_elements = np.sum(myarray)
 print("Sum of all elements:", sum_all_elements)
-
 # b. Sum of all elements row-wise
 sum_row_wise = np.sum(myarray, axis=1)
 print("Sum of all elements row-wise:", sum_row_wise)
-
 # c. Sum of all elements column-wise
 sum_column_wise = np.sum(myarray, axis=0)
 print("Sum of all elements column-wise:", sum_column_wise)

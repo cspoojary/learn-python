@@ -1,8 +1,6 @@
 #  26) Write a program to read a collection of integers from the user using List. Display all the 
 #      negative numbers followed by all the zeroes and the positive numbers using three lists to
 #      store the negative, zero and positive values.
-
-
 negatives = []
 zeroes = []
 positives = []
