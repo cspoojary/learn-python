@@ -15,4 +15,3 @@ print(dict1)
 del (dict1["Pratham"])
 print(dict1)
 
-
