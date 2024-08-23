@@ -9,3 +9,8 @@ product=1
 for items in element:
     product *= items
 print("The product of the item is:",product)
+
+count = 5
+while count > 0:
+    print(count)
+    count -= 1
